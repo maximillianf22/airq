@@ -19,6 +19,6 @@ Route::get('detalle', function () {
     return view('detalle');
 });
 
-Route::get('principa', function () {
+Route::get('principal', function () {
     return view('frontPage');
 });

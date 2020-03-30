@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
-  <meta name="author" content="Creative Tim">
+  <meta name="description" content="Informacion de la calidad del aire en el espacio aereo de Barranquilla">
+  <meta name="author" content="Developapp">
   <title>AirQ | Informacion del Aire</title>
   <!-- Extra details for Live View on GitHub Pages -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">

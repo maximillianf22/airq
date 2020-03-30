@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
-  <meta name="author" content="Creative Tim">
+  <meta name="description" content="Informacion de la calidad del aire en el espacio aereo de Barranquilla">
+  <meta name="author" content="Developapp">
   <title>AirQ | Informacion del Aire</title>
     <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
@@ -285,6 +285,11 @@
                           <span class="nav-link-icon d-block"><i class="fas fa-map-marked-alt"></i></span>
                         </a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="info-tab" data-toggle="tab" href="#tabs-icons-text-4" role="tab" aria-controls="contact" aria-selected="false">
+                          <span class="nav-link-icon d-block"><i class="fas fa-exclamation-triangle"></i></span>
+                        </a>
+                      </li>
                     </ul>
                  </div>
                   <div class="card shadow">
@@ -441,6 +446,69 @@
                                     </ul>
                                   </div>
                               </div>
+                              <div class="tab-pane fade" id="tabs-icons-text-4" role="tabpanel" aria-labelledby="tabs-icons-text-2-tab">
+                                        <div class="card-header p-1 mt-2 mb-1">
+                                          <h6 class="h4 mb-0 p-0 text-center">Medidores potencialmente <br><strong class="text-danger">PELIGROSOS</strong></h6>
+                                        </div>
+                                  <div class="col-md-12 mt-2">
+                                      <div class="card card-stats border">
+                                        <!-- Card body -->
+                                        <div class="card-body">
+                                          <div class="row">
+                                            <div class="col">
+                                                <h6 class="card-title text-uppercase text-muted mb-0">Lunes</h6>
+                                                <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
+                                              </div>
+                                            <div class="col-auto">
+                                              <div class="icon-sm icon-shape text-white rounded-circle shadow" style="background-image: linear-gradient(to right top, #ed0000, #ff0042, #ff007d, #e100bf, #9000ff);">
+                                                <i class="fas fa-cloud"></i>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="container">
+                                            <div class="row">
+                                              <p class="mb-0 text-sm">
+                                                <span class="text-danger mr-2"><strong><i class="fas fa-exclamation-triangle"></i></strong></span>
+                                                <span class="text-nowrap font-weight-bold text-uppercase text-muted"><small>Medidor ID <b>65651</b></small> </span>
+                                              </p>
+                                              <div class="text-right text-muted">
+                                                     <small>hace 8 minutos Barranquilla, Atlantico</small>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 mt-0">
+                                      <div class="card card-stats border">
+                                        <!-- Card body -->
+                                        <div class="card-body">
+                                          <div class="row">
+                                            <div class="col">
+                                                <h6 class="card-title text-uppercase text-muted mb-0">Lunes</h6>
+                                                <span class="h5 font-weight-bold mb-0">255 | <strong class="text-uppercase" style="color: #9000FF">MUY MALO</strong></span>
+                                              </div>
+                                            <div class="col-auto">
+                                              <div class="icon-sm icon-shape text-white bg-gradient-danger rounded-circle shadow">
+                                                <i class="fas fa-cloud"></i>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="container">
+                                            <div class="row">
+                                              <p class=" mb-0 text-sm">
+                                                <span class="text-danger mr-2"><strong><i class="fas fa-exclamation-triangle"></i></strong></span>
+                                                <span class="text-nowrap font-weight-bold text-uppercase text-muted"><small>Medidor ID <b>65461</b></small> </span>
+                                              </p>
+                                              <div class="text-right text-muted">
+                                                     <small>hace 8 minutos Barranquilla, Atlantico</small>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -577,11 +645,11 @@
                                     <div class="card mt-3">
                                         <div class="card-body">
                                           <div class="row">
-                                          <div class="col-6">
+                                          <div class="col-md-6">
                                               Particulas por millon PM.2.5
                                                     <canvas id="chart-bars3"></canvas>
                                            </div>
-                                           <div class="col-6">
+                                           <div class="col-md-6">
                                               CO Monoxido de Carbono
                                                     <canvas id="chart-bars4"></canvas>
                                            </div>
@@ -593,11 +661,11 @@
                                     <div class="card mt-3">
                                         <div class="card-body">
                                           <div class="row">
-                                          <div class="col-6">
+                                          <div class="col-md-6">
                                               NO2 Dioxido de Nitrogeno
                                                     <canvas id="chart-bars5"></canvas>
                                            </div>
-                                           <div class="col-6">
+                                           <div class="col-md-6">
                                               SOx Dioxido de Azufre
                                                     <canvas id="chart-bars6"></canvas>
                                            </div>

@@ -17,6 +17,55 @@
   <!-- Page plugins -->
   <!-- Argon CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css/argon.css?v=1.2.0') }}" type="text/css">
+  <style type="text/css">
+    
+
+.contenedor {
+  
+  display: flex;
+  width: 300px;
+  height: 40px;
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+  
+  position: absolute;
+  top: 13;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+.cambio {
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 7s infinite;
+}
+
+.cambio, p {
+  margin: 0;
+}
+
+@keyframes cambiar {
+  
+  0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  
+  25% {margin-top: -40px;}
+  50% {margin-top: -40px;}
+  
+  55% {margin-top: -80px;}
+  80% {margin-top: -80px;}
+  
+  85% {margin-top: -40px;}
+  95% {margin-top: -40px;}
+  
+  100% {margin-top: 0;}
+}
+  </style>
 </head>
 
 <body>
@@ -179,7 +228,23 @@
                       <div class="row">
                         <div class="col">
                           <h6 class="card-title text-uppercase text-muted mb-0">CALIDAD DEL AIRE</h6>
-                          <span class="h3 font-weight-bold mb-0">46 | <strong class="text-success">EXCELENTE</strong></span>
+                          <span class="h3 font-weight-bold mb-0">
+                            <div class="contenedor ml-2">
+                              <ul class="cambio">
+                                <li>46 </li>
+                                <li>45 </li>
+                                <li>48 </li>
+                                <li>47 </li>
+                                <li>45 </li>
+                                <li>44 </li>
+                                <li>49 </li>
+                                <li>48 </li>
+                                <li>45 </li>
+                                <li>46 </li>
+                              </ul>
+                               &nbsp;| <strong class="text-success">EXCELENTE</strong>
+                            </div>
+                          </span>
                         </div>
                         <div class="col-auto">
                           <div class="icon icon-shape bg-gradient-success text-white rounded-circle shadow">
@@ -189,11 +254,11 @@
                       </div>
                       <div class="container">
                         <div class="row">
-                          <p class="mt-2 mb-0 col-md-6 text-sm border-right">
+                          <p class="mt-2 mb-0 col-6 text-sm border-right">
                             <span class="text-danger mr-2"><strong><i class="fas fa-thermometer-empty"></i></strong></span>
                             <span class="text-nowrap font-weight-bold text-uppercase text-muted">13ºC</span>
                           </p>
-                          <p class="mt-2 mb-0 col-md-6 text-sm">
+                          <p class="mt-2 mb-0 col-6 text-sm">
                             <span class="text-info mr-2"><strong><i class="fas fa-tint"></i></strong></span>
                             <span class="text-nowrap font-weight-bold text-uppercase text-muted">49%</span>
                           </p>
@@ -226,11 +291,27 @@
                       <div class="">
                           <div class="tab-content" id="myTabContent">
                               <div class="tab-pane fade  show active p-0 m-0" id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
-                                  <button type="button" class="list-group-item list-group-item-action p-1">
+                                  <button type="button" class="list-group-item list-group-item-action p-1 active">
                                       <div class="row ml-2 mr-2">
                                       <div class="col">
-                                        <h6 class="card-title text-uppercase text-muted mb-0">LUNES</h6>
-                                        <span class="h5 font-weight-bold mb-0">54 | <strong class="text-success text-uppercase">BUENO</strong></span>
+                                        <h6 class="card-title text-uppercase text-muted mb-0 text-white">LUNES</h6>
+                                        <span class="h5 font-weight-bold mb-0 text-white">&nbsp;
+                                          <div class="contenedor ml-2 text-white" style="font-size: 15px; top: 13px">
+                                              <ul class="cambio">
+                                                <li>46 </li>
+                                                <li>45 </li>
+                                                <li>48 </li>
+                                                <li>47 </li>
+                                                <li>45 </li>
+                                                <li>44 </li>
+                                                <li>49 </li>
+                                                <li>48 </li>
+                                                <li>45 </li>
+                                                <li>46 </li>
+                                              </ul>
+                                               &nbsp;| <strong class=" ">EXCELENTE</strong>
+                                            </div>
+                                        </span>
                                       </div>
                                       <div class="col-auto">
                                         <div class="icon-sm icon-shape bg-gradient-success text-white rounded-circle shadow">
@@ -332,8 +413,8 @@
                                         </div>
                                     </div>
                               </div>
-                              <div class="tab-pane fade" id="tabs-icons-text-3" role="tabpanel" aria-labelledby="tabs-icons-text-3-tab">
-                                 <div class="card ml-2 mt-2" style="width: 18rem;">
+                              <div class="tab-pane fade align-items-center" id="tabs-icons-text-3" role="tabpanel" aria-labelledby="tabs-icons-text-3-tab">
+                                 <div class="card ml-2 mt-2" style="width: 18rem; display: contents;">
                                     <img class="card-img-top" src="https://www.elheraldo.co/sites/default/files/styles/1180x786/public/galeriaimagenes/2018/04/06/img_1081.jpg?itok=ebBJvDu7" alt="Card image cap">
                                     <ul class="list-group list-group-flush">
                                       <li class="list-group-item">Navegar en Ciudades
@@ -425,7 +506,7 @@
                     <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container p-0 mt-3">
                             <div class="row">
-                                <div class="col-sm-4 col-md-3">
+                                <div class="col-sm-4 col-md-4">
                                   <div class="col-md-12 mt-2">
                                       <div class="card card-stats border">
                                         <!-- Card body -->
@@ -443,11 +524,11 @@
                                           </div>
                                           <div class="container">
                                             <div class="row">
-                                              <p class="mt-2 mb-0 col-md-6 text-sm border-right">
+                                              <p class="mt-2 mb-0 col-6 text-sm border-right">
                                                 <span class="text-danger mr-2"><strong><i class="fas fa-thermometer-empty"></i></strong></span>
                                                 <span class="text-nowrap font-weight-bold text-uppercase text-muted">13ºC</span>
                                               </p>
-                                              <p class="mt-2 mb-0 col-md-6 text-sm">
+                                              <p class="mt-2 mb-0 col-6 text-sm">
                                                 <span class="text-info mr-2"><strong><i class="fas fa-tint"></i></strong></span>
                                                 <span class="text-nowrap font-weight-bold text-uppercase text-muted">49%</span>
                                               </p>
@@ -481,7 +562,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-8 col-md-9">
+                                <div class="col-sm-8 col-md-8">
                                     <div class="card">
                                         <img class="card-img" src="http://142.154.137.29/mjpg/video.mjpg" alt="">
                                     </div>
@@ -492,25 +573,35 @@
                     <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-3">
-                                    <div class="btn-group-vertical btn-group-toggle w-100 mt-3" data-toggle="buttons">
-                                        <label class="btn btn-primary">
-                                            <input type="radio" name="options" id="option1" autocomplete="off"> Grupo 1
-                                        </label>
-                                        <label class="btn btn-primary">
-                                            <input type="radio" name="options" id="option2" autocomplete="off"> Grupo 2
-                                        </label>
-                                        <label class="btn btn-primary">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"> Grupo 3
-                                        </label>
-                                        <label class="btn btn-primary">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"> Grupo 4
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-8 col-md-9">
+                                <div class="col-10 offset-1">
                                     <div class="card mt-3">
                                         <div class="card-body">
+                                          <div class="row">
+                                          <div class="col-6">
+                                              Particulas por millon PM.2.5
+                                                    <canvas id="chart-bars3"></canvas>
+                                           </div>
+                                           <div class="col-6">
+                                              CO Monoxido de Carbono
+                                                    <canvas id="chart-bars4"></canvas>
+                                           </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-10 offset-1">
+                                    <div class="card mt-3">
+                                        <div class="card-body">
+                                          <div class="row">
+                                          <div class="col-6">
+                                              NO2 Dioxido de Nitrogeno
+                                                    <canvas id="chart-bars5"></canvas>
+                                           </div>
+                                           <div class="col-6">
+                                              SOx Dioxido de Azufre
+                                                    <canvas id="chart-bars6"></canvas>
+                                           </div>
+                                          </div>
                                         </div>
                                     </div>
                                 </div>
@@ -557,15 +648,14 @@
         var anaranjado = "{{asset('images/marcadores/marcadorAnaranjado.png')}}";
         var rojo = "{{asset('images/marcadores/marcadorRojo.png')}}";
         
-         var contentString = `
-            <div class="container-fluid">
+         var contentString = `<div class="container-fluid">
             <div class="row justify-content-center align-items-center mt-4">
                 <div class="card-deck flex-row flex-nowrap mb-3">
                   <div class="card">
                     <div class="card-body pb-1">
-                      <h5 class="card-title text-center m-0 mb-0"><small>Nivel iv </small></h5>
-                      <h5 class="card-title text-center m-0 mb-1"><small>Emegencia:  <b style="background-color: #760a91" class="text-white text-uppercase">&nbsp;Purpúra&nbsp;</b></small></h5>
-                        <table class="text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
+                      <h5 class="card-title text-center m-0 mb-0">Nivel iv </h5>
+                      <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b style="background-color: #760a91" class="text-white text-uppercase">&nbsp;Purpúra&nbsp;</b></h5>
+                        <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
                           <thead>
                             <tr style="background-color: #760a91" class="text-white" style="font-family: consolas;">
                               <th scope="col" colspan="6">CONTAMINANTES</th>
@@ -573,20 +663,20 @@
                           </thead>
                           <tbody class="text-center">
                             <tr>
-                              <th>Pm10</th>
-                              <th>Pm2.5</td>
-                              <th>O3</td>
-                              <th>SO2</td>
-                              <th>NO2</td>
-                              <th>CO</td>
+                              <th class="p-1 m-1">Pm10</th>
+                              <th class="p-1 m-1">Pm2.5</th>
+                              <th class="p-1 m-1">O3</th>
+                              <th class="p-1 m-1">SO2</th>
+                              <th class="p-1 m-1">NO2</th>
+                              <th class="p-1 m-1">CO</th>
                             </tr>
                             <tr>
-                              <td>>=355</td>
-                              <td>>=151</td>
-                              <td>>=208</td>
-                              <td>>=798</td>
-                              <td>>=1.222</td>
-                              <td>>=17.688</td>
+                              <td class="p-1 m-1">>=355</td>
+                              <td class="p-1 m-1">>=151</td>
+                              <td class="p-1 m-1">>=208</td>
+                              <td class="p-1 m-1">>=798</td>
+                              <td class="p-1 m-1">>=1.222</td>
+                              <td class="p-1 m-1">>=17.688</td>
                             </tr>
                           </tbody>
                         </table>
@@ -673,7 +763,7 @@
           map.setCenter({lat: 10.9710908, lng: -74.7839236});
         });
 
-$("#menu-toggle").click(function (e) {
+        $("#menu-toggle").click(function (e) {
           e.preventDefault();
           $("#wrapper").toggleClass("toggled");
         });
@@ -696,32 +786,25 @@ $("#menu-toggle").click(function (e) {
           map.panTo(cityMap);
           map.setZoom(15);
         })
-          var markers2 = [
-    {
-          id: 'sem1',
-          position: new google.maps.LatLng(10.995357, -74.802205)
-        },
-        {
-          id: 'sem2',
-          position: new google.maps.LatLng(10.995352, -74.802290)
-        }
-      ]
-      var mapOptions2 = {
-        zoom: 21,
-        center: new google.maps.LatLng(10.9953151, -74.8022596),
+          
+            var map2 = new google.maps.Map(document.getElementById('map2'), {
+          center: {lat: 10.9710908, lng: -74.7839236},
+          zoom: 19,
         mapTypeId: 'roadmap',
         disableDefaultUI: true,
         gestureHandling: 'none',
-          icon: morado,
         zoomControl: false,
-      }
-      map2 = new google.maps.Map(document.getElementById('map2'), mapOptions2);
-      setMarkers(map2, markers2, false)
-
+        });
+        
+         var marker101 = new google.maps.Marker({
+          position: {lat: 10.9710908, lng: -74.7839236},
+          map: map2,
+          icon: morado,
+        });
       }
 
     </script>
-     </script>
+
     <script async defer
              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVqj3iCGPfniWznDShImSfe8XQzjdiQrM&callback=initMap">
     </script>

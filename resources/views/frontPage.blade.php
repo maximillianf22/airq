@@ -270,22 +270,22 @@
                 <div class="container">
                 <div class="nav-wrapper mt-0 pt-0 text-center">
                   <ul class=" align-items-center justify-content-center nav nav-pills nav-pills-circle" id="tabs_2" role="tablist">
-                      <li class="nav-item">
+                      <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Calendario">
                         <a class="nav-link rounded-circle active" id="home-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="home" aria-selected="true">
                           <span class="nav-link-icon d-block"><i class="fas fa-calendar-day"></i></span>
                         </a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Grafica">
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="profile" aria-selected="false">
                           <span class="nav-link-icon d-block"><i class="fas fa-chart-area"></i></span>
                         </a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Navegacion">
                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="contact" aria-selected="false">
                           <span class="nav-link-icon d-block"><i class="fas fa-map-marked-alt"></i></span>
                         </a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Medidores Peligrosos">
                         <a class="nav-link" id="info-tab" data-toggle="tab" href="#tabs-icons-text-4" role="tab" aria-controls="contact" aria-selected="false">
                           <span class="nav-link-icon d-block"><i class="fas fa-exclamation-triangle"></i></span>
                         </a>

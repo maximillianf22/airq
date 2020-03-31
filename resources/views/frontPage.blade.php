@@ -256,7 +256,7 @@
                         <div class="row">
                           <p class="mt-2 mb-0 col-6 text-sm border-right">
                             <span class="text-danger mr-2"><strong><i class="fas fa-thermometer-empty"></i></strong></span>
-                            <span class="text-nowrap font-weight-bold text-uppercase text-muted">13ºC</span>
+                            <span class="text-nowrap font-weight-bold text-uppercase text-muted">27ºC</span>
                           </p>
                           <p class="mt-2 mb-0 col-6 text-sm">
                             <span class="text-info mr-2"><strong><i class="fas fa-tint"></i></strong></span>
@@ -296,10 +296,23 @@
                       <div class="">
                           <div class="tab-content" id="myTabContent">
                               <div class="tab-pane fade  show active p-0 m-0" id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
+                                 <button type="button" class="list-group-item list-group-item-action p-1">
+                                      <div class="row ml-2 mr-2">
+                                      <div class="col">
+                                        <h6 class="card-title text-uppercase text-muted mb-0">LUNES</h6>
+                                        <span class="h5 font-weight-bold mb-0">55 | <strong class="text-yellow text-uppercase">REGULAR</strong></span>
+                                      </div>
+                                      <div class="col-auto">
+                                        <div class="icon-sm icon-shape text-white rounded-circle shadow" style="background-image: linear-gradient(to right top, #cce909, #d9ec03, #e5ef00, #f2f100, #fff400);">
+                                          <i class="fas fa-cloud"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </button>
                                   <button type="button" class="list-group-item list-group-item-action p-1 active">
                                       <div class="row ml-2 mr-2">
                                       <div class="col">
-                                        <h6 class="card-title text-uppercase text-muted mb-0 text-white">LUNES</h6>
+                                        <h6 class="card-title text-uppercase text-muted mb-0 text-white">MARTES</h6>
                                         <span class="h5 font-weight-bold mb-0 text-white">&nbsp;
                                           <div class="contenedor ml-2 text-white" style="font-size: 15px; top: 13px">
                                               <ul class="cambio">
@@ -320,19 +333,6 @@
                                       </div>
                                       <div class="col-auto">
                                         <div class="icon-sm icon-shape bg-gradient-success text-white rounded-circle shadow">
-                                          <i class="fas fa-cloud"></i>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </button>
-                                 <button type="button" class="list-group-item list-group-item-action p-1">
-                                      <div class="row ml-2 mr-2">
-                                      <div class="col">
-                                        <h6 class="card-title text-uppercase text-muted mb-0">Martes</h6>
-                                        <span class="h5 font-weight-bold mb-0">55 | <strong class="text-yellow text-uppercase">REGULAR</strong></span>
-                                      </div>
-                                      <div class="col-auto">
-                                        <div class="icon-sm icon-shape text-white rounded-circle shadow" style="background-image: linear-gradient(to right top, #cce909, #d9ec03, #e5ef00, #f2f100, #fff400);">
                                           <i class="fas fa-cloud"></i>
                                         </div>
                                       </div>
@@ -413,8 +413,8 @@
                                               </div>
                                               <!-- Card body -->
                                               <div class="card-body">
-                                                    <!-- Chart wrapper -->
-                                                    <canvas id="chart-bars2"></canvas>
+                                                <!-- Chart wrapper -->
+                                                <canvas id="chart-bars2"></canvas>
                                         </div>
                                     </div>
                               </div>
@@ -456,7 +456,7 @@
                                         <div class="card-body">
                                           <div class="row">
                                             <div class="col">
-                                                <h6 class="card-title text-uppercase text-muted mb-0">Lunes</h6>
+                                                <h6 class="card-title text-uppercase text-muted mb-0">Martes</h6>
                                                 <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
                                               </div>
                                             <div class="col-auto">
@@ -485,7 +485,7 @@
                                         <div class="card-body">
                                           <div class="row">
                                             <div class="col">
-                                                <h6 class="card-title text-uppercase text-muted mb-0">Lunes</h6>
+                                                <h6 class="card-title text-uppercase text-muted mb-0">Martes</h6>
                                                 <span class="h5 font-weight-bold mb-0">255 | <strong class="text-uppercase" style="color: #9000FF">MUY MALO</strong></span>
                                               </div>
                                             <div class="col-auto">
@@ -581,7 +581,7 @@
                                         <div class="card-body">
                                           <div class="row">
                                             <div class="col">
-                                              <h6 class="card-title text-uppercase text-muted mb-0">sabado</h6>
+                                              <h6 class="card-title text-uppercase text-muted mb-0">Martes</h6>
                                               <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
                                             </div>
                                             <div class="col-auto">
@@ -594,7 +594,7 @@
                                             <div class="row">
                                               <p class="mt-2 mb-0 col-6 text-sm border-right">
                                                 <span class="text-danger mr-2"><strong><i class="fas fa-thermometer-empty"></i></strong></span>
-                                                <span class="text-nowrap font-weight-bold text-uppercase text-muted">13ºC</span>
+                                                <span class="text-nowrap font-weight-bold text-uppercase text-muted">27ºC</span>
                                               </p>
                                               <p class="mt-2 mb-0 col-6 text-sm">
                                                 <span class="text-info mr-2"><strong><i class="fas fa-tint"></i></strong></span>

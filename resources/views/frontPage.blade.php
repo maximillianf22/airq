@@ -620,7 +620,7 @@
                                         <div class="card-body">
                                           <div class="row">
                                             <div class="col">
-                                              <h6 class="card-title text-uppercase text-muted mb-0">Martes</h6>
+                                              <h6 class="card-title text-uppercase text-muted mb-0">CALIDAD DEL AIRE <strong><script>DameLaFechaHora();</script></strong></h6>
                                               <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
                                             </div>
                                             <div class="col-auto">

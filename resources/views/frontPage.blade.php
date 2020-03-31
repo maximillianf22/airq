@@ -17,8 +17,26 @@
   <!-- Page plugins -->
   <!-- Argon CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css/argon.css?v=1.2.0') }}" type="text/css">
+  <script Language="JavaScript">
+    function DameLaFechaHora() {
+      var hora = new Date()
+      var hrs = hora.getHours();
+      var min = hora.getMinutes();
+      var hoy = new Date();
+      var m = new Array();
+      var d = new Array()
+      var an= hoy.getYear();
+      m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+      m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+      m[6]="Julio";    m[7]="Agosto";   m[8]="Septiembre";
+      m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+      document.write(hoy.getDate());
+      document.write(" de ");
+      document.write(m[hoy.getMonth()]);
+    }
+  </script>
+
   <style type="text/css">
-    
 
 .contenedor {
   
@@ -30,7 +48,7 @@
   line-height: 40px;
   
   position: absolute;
-  top: 13;
+  top: 17px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -176,6 +194,25 @@
                       </div>
                     </div>
                   </a>
+                  <a href="#!" class="list-group-item list-group-item-action btnDetail">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        <!-- Avatar -->
+                        <img alt="Image placeholder" src="{{ asset('images/marcadores/marcadorMorado.png')}}" class="">
+                      </div>
+                      <div class="col ml--2">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div>
+                            <h4 class="mb-0 text-sm">Medidor ID 61351 Barranquilla, Atlantico</h4>
+                          </div>
+                          <div class="text-right text-muted">
+                            <small>hace 9 horas</small>
+                          </div>
+                        </div>
+                        <p class="text-sm mb-0">Emergencia Ambiental Alcanzada</p>
+                      </div>
+                    </div>
+                  </a>
                 </div>
                 <!-- View all -->
                 <a href="#" class="dropdown-item text-center text-primary font-weight-bold py-3">Ver todas las Notificaciones</a>
@@ -227,7 +264,8 @@
                     <div class="card-body">
                       <div class="row">
                         <div class="col">
-                          <h6 class="card-title text-uppercase text-muted mb-0">CALIDAD DEL AIRE</h6>
+                          <h6 class="card-title text-uppercase text-muted mb-0">CALIDAD DEL AIRE <strong><script>DameLaFechaHora();</script></strong></h6>
+                           
                           <span class="h3 font-weight-bold mb-0">
                             <div class="contenedor ml-2">
                               <ul class="cambio">
@@ -450,6 +488,7 @@
                                         <div class="card-header p-1 mt-2 mb-1">
                                           <h6 class="h4 mb-0 p-0 text-center">Medidores potencialmente <br><strong class="text-danger">PELIGROSOS</strong></h6>
                                         </div>
+                                  <a href="#!" class="btnDetail">
                                   <div class="col-md-12 mt-2">
                                       <div class="card card-stats border">
                                         <!-- Card body -->
@@ -479,6 +518,7 @@
                                         </div>
                                       </div>
                                     </div>
+                                  </a>
                                     <div class="col-md-12 mt-0">
                                       <div class="card card-stats border">
                                         <!-- Card body -->

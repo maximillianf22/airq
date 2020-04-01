@@ -68,6 +68,8 @@
                 <div class="text-center">
                   <button type="button" style="background-image: linear-gradient(to right top, #0fd331, #14d22c, #18d228, #1cd122, #1fd01c, #1fd219, #20d315, #20d510, #1dd90e, #1ade0d, #17e20a, #12e708);" class="btn my-4 text-white">Iniciar Sesion</button>
                 </div>
+                    <img src="{{asset('assets/img/brand/alcaldia.jpg')}}" width="160px" class="rounded mx-auto d-block">
+
               </form>
             </div>
           </div>

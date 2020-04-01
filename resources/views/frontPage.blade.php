@@ -133,11 +133,11 @@
               <div class="dropdown-menu dropdown-menu-xl  dropdown-menu-right  py-0 overflow-hidden">
                 <!-- Dropdown header -->
                 <div class="px-3 py-3">
-                  <h6 class="text-sm text-muted m-0">Tienes <strong class="text-primary">13</strong> notificaciones.</h6>
+                  <h6 class="text-sm text-muted m-0">Tienes <strong class="text-primary">4</strong> notificaciones.</h6>
                 </div>
                 <!-- List group -->
                 <div class="list-group list-group-flush">
-                  <a href="#!" class="list-group-item list-group-item-action">
+                  <a href="#!" class="list-group-item list-group-item-action btnDetail">
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
@@ -156,7 +156,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#!" class="list-group-item list-group-item-action">
+                  <a href="#!" class="list-group-item list-group-item-action btnDetail">
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
@@ -175,7 +175,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href="#!" class="list-group-item list-group-item-action">
+                  <a href="#!" class="list-group-item list-group-item-action btnDetail">
                     <div class="row align-items-center">
                       <div class="col-auto">
                         <!-- Avatar -->
@@ -215,7 +215,6 @@
                   </a>
                 </div>
                 <!-- View all -->
-                <a href="#" class="dropdown-item text-center text-primary font-weight-bold py-3">Ver todas las Notificaciones</a>
               </div>
             </li>
           </ul>
@@ -235,16 +234,8 @@
                 <div class="dropdown-header noti-title">
                   <h6 class="text-overflow m-0">Bienvenido</h6>
                 </div>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-single-02"></i>
-                  <span>Mi perfil</span>
-                </a>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-support-16"></i>
-                  <span>Soprte</span>
-                </a>
                 <div class="dropdown-divider"></div>
-                <a href="#!" class="dropdown-item">
+                <a href="login" class="dropdown-item">
                   <i class="ni ni-user-run"></i>
                   <span>Cerrar Sesion</span>
                 </a>
@@ -260,6 +251,7 @@
             <div class="col-md-3 p-0">
                 <div class="col-md-12 mt-2">
                   <div class="card card-stats border">
+                    <img src="{{asset('assets/img/brand/alcaldia.jpg')}}" width="150px" class="rounded mx-auto d-block"> 
                     <!-- Card body -->
                     <div class="card-body">
                       <div class="row">
@@ -271,13 +263,6 @@
                                 <li>46 </li>
                                 <li>45 </li>
                                 <li>48 </li>
-                                <li>47 </li>
-                                <li>45 </li>
-                                <li>44 </li>
-                                <li>49 </li>
-                                <li>48 </li>
-                                <li>45 </li>
-                                <li>46 </li>
                               </ul>
                                &nbsp;| <strong class="text-success">EXCELENTE</strong>
                             </div>
@@ -329,6 +314,8 @@
                       </li>
                     </ul>
                  </div>
+               
+
                   <div class="card shadow">
                       <div class="">
                           <div class="tab-content" id="myTabContent">
@@ -346,27 +333,11 @@
                                       </div>
                                     </div>
                                   </button>
-                                  <button type="button" class="list-group-item list-group-item-action p-1 active">
+                                  <button type="button" class="list-group-item list-group-item-action p-1">
                                       <div class="row ml-2 mr-2">
                                       <div class="col">
-                                        <h6 class="card-title text-uppercase text-muted mb-0 text-white">MARTES</h6>
-                                        <span class="h5 font-weight-bold mb-0 text-white">&nbsp;
-                                          <div class="contenedor ml-2 text-white" style="font-size: 15px; top: 13px">
-                                              <ul class="cambio">
-                                                <li>46 </li>
-                                                <li>45 </li>
-                                                <li>48 </li>
-                                                <li>47 </li>
-                                                <li>45 </li>
-                                                <li>44 </li>
-                                                <li>49 </li>
-                                                <li>48 </li>
-                                                <li>45 </li>
-                                                <li>46 </li>
-                                              </ul>
-                                               &nbsp;| <strong class=" ">EXCELENTE</strong>
-                                            </div>
-                                        </span>
+                                        <h6 class="card-title text-uppercase text-muted mb-0">MARTES</h6>
+                                        <span class="h5 font-weight-bold mb-0">46 | <strong class="text-success text-uppercase">EXCELENTE</strong></span>
                                       </div>
                                       <div class="col-auto">
                                         <div class="icon-sm icon-shape bg-gradient-success text-white rounded-circle shadow">
@@ -517,7 +488,6 @@
                                         </div>
                                       </div>
                                     </div>
-                                  </a>
                                     <div class="col-md-12 mt-0">
                                       <div class="card card-stats border">
                                         <!-- Card body -->
@@ -547,6 +517,7 @@
                                         </div>
                                       </div>
                                     </div>
+                                  </a>
                               </div>
                           </div>
                       </div>
@@ -592,7 +563,7 @@
     <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Dirección: Calle 80 - Cra 10 </h5>
+                <h5 class="modal-title" id="exampleModalLabel">Dirección: Carrera 10 - Calle 80 #50 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -621,10 +592,24 @@
                                           <div class="row">
                                             <div class="col">
                                               <h6 class="card-title text-uppercase text-muted mb-0">CALIDAD DEL AIRE <strong><script>DameLaFechaHora();</script></strong></h6>
-                                              <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
+                                              <span class="h3 font-weight-bold mb-0">
+                                                <div class="contenedor ml-2">
+                                                  <ul class="cambio">
+                                                    <li>
+                                                      <span class="h5 font-weight-bold mb-0">46 | <strong class="text-success text-uppercase">EXCELENTE</strong></span>
+                                                    </li>
+                                                    <li>
+                                                      <span class="h5 font-weight-bold mb-0">155 | <strong class="text-warning text-uppercase">MALO</strong></span>
+                                                    </li>
+                                                    <li>
+                                                      <span class="h5 font-weight-bold mb-0">355 | <strong class="text-uppercase" style="color: #9000FF">PELIGRO</strong></span>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </span>
                                             </div>
                                             <div class="col-auto">
-                                              <div class="icon-sm icon-shape text-white rounded-circle shadow" style="background-image: linear-gradient(to right top, #ed0000, #ff0042, #ff007d, #e100bf, #9000ff);">
+                                              <div class="icon-sm icon-shape text-white rounded-circle shadow bg-default">
                                                 <i class="fas fa-cloud"></i>
                                               </div>
                                             </div>
@@ -650,7 +635,7 @@
                                                 <div class="row align-items-center">
                                                   <div class="col-auto">
                                                     <!-- Avatar -->
-                                                    <img alt="Image placeholder" src="{{ asset('images/marcadores/marcadorMorado.png')}}" class="">
+                                                    <img alt="Image placeholder" src="{{ asset('images/marcadores/mark.png')}}" class="">
                                                   </div>
                                                   <div class="col ml--2">
                                                     <div class="d-flex justify-content-between align-items-center">
@@ -658,10 +643,9 @@
                                                         <h4 class="mb-0 text-sm">Medidor ID 61651 Barranquilla, Atlantico</h4>
                                                       </div>
                                                       <div class="text-right text-muted">
-                                                        <small>hace 8 minutos</small>
+                                                        <small>hace 15 minutos</small>
                                                       </div>
                                                     </div>
-                                                    <p class="text-sm mb-0">Emergencia Ambiental alcanzada</p>
                                                   </div>
                                                 </div>
                                               </a>
@@ -680,28 +664,15 @@
                     <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="container">
                             <div class="row">
-                            <div class="input-daterange datepicker row align-items-center">
-    <div class="col">
-        <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
-                </div>
-                <input class="form-control" placeholder="Start date" type="text" value="06/18/2020">
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="form-group">
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
-                </div>
-                <input class="form-control" placeholder="End date" type="text" value="06/22/2020">
-            </div>
-        </div>
-    </div>
-</div>
+                              <div class="form-group  mx-auto d-block">
+                                <h4 class="mt-4 text-center">Historico</h4>
+                                  <div class="input-group">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                                      </div>
+                                      <input class="form-control datepicker" placeholder="Selecciona la Fecha" type="text" value="06/20/2020">
+                                  </div>
+                              </div>
                             </div>
                             <div class="row">
                                 <div class="col-10 offset-1">
@@ -749,6 +720,7 @@
         </div>
     </div>
   </div>
+
 </div>
   
  <!-- Argon Scripts -->
@@ -780,7 +752,7 @@
         var anaranjado = "{{asset('images/marcadores/marcadorAnaranjado.png')}}";
         var rojo = "{{asset('images/marcadores/marcadorRojo.png')}}";
         
-         var contentString = `<div class="container-fluid">
+         var contentStringMorado = `<div class="container-fluid">
             <div class="row justify-content-center align-items-center mt-4">
                 <div class="card-deck flex-row flex-nowrap mb-3">
                   <div class="card">
@@ -789,7 +761,7 @@
                       <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b style="background-color: #760a91" class="text-white text-uppercase">&nbsp;Purpúra&nbsp;</b></h5>
                         <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
                           <thead>
-                            <tr style="background-color: #760a91" class="text-white" style="font-family: consolas;">
+                            <tr style="background-color: #760a91" class="text-white" >
                               <th scope="col" colspan="6">CONTAMINANTES</th>
                             </tr>
                           </thead>
@@ -824,8 +796,197 @@
               </div>
             </div>`;
 
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
+
+            var contentStringVerde = `<div class="container-fluid">
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="card-deck flex-row flex-nowrap mb-3">
+                  <div class="card">
+                    <div class="card-body pb-1">
+                      <h5 class="card-title text-center m-0 mb-0">Nivel iv </h5>
+                      <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b class="text-success text-uppercase">&nbsp;Verde&nbsp;</b></h5>
+                        <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
+                          <thead>
+                            <tr class="text-white bg-success">
+                              <th scope="col" colspan="6">CONTAMINANTES</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-center">
+                            <tr>
+                              <th class="p-1 m-1">Pm10</th>
+                              <th class="p-1 m-1">Pm2.5</th>
+                              <th class="p-1 m-1">O3</th>
+                              <th class="p-1 m-1">SO2</th>
+                              <th class="p-1 m-1">NO2</th>
+                              <th class="p-1 m-1">CO</th>
+                            </tr>
+                            <tr>
+                              <td class="p-1 m-1"><=55</td>
+                              <td class="p-1 m-1">>=151</td>
+                              <td class="p-1 m-1">>=208</td>
+                              <td class="p-1 m-1">>=798</td>
+                              <td class="p-1 m-1">>=1.222</td>
+                              <td class="p-1 m-1">>=17.688</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      <a class="justify-content-center align-items-center text-center">
+                      <h5 class="card-title text-center m-0 mb-0"><small>
+                      <button class="text-center text-white btn-success btn btn-sm btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
+                      
+                      <h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+
+            var contentStringAmarillo = `<div class="container-fluid">
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="card-deck flex-row flex-nowrap mb-3">
+                  <div class="card">
+                    <div class="card-body pb-1">
+                      <h5 class="card-title text-center m-0 mb-0">Nivel iv </h5>
+                      <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b style="background-color: #F8F800" class="text-white text-uppercase">&nbsp;Amarillo&nbsp;</b></h5>
+                        <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
+                          <thead>
+                            <tr style="background-color: #F8F800" class="text-white" >
+                              <th scope="col" colspan="6">CONTAMINANTES</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-center">
+                            <tr>
+                              <th class="p-1 m-1">Pm10</th>
+                              <th class="p-1 m-1">Pm2.5</th>
+                              <th class="p-1 m-1">O3</th>
+                              <th class="p-1 m-1">SO2</th>
+                              <th class="p-1 m-1">NO2</th>
+                              <th class="p-1 m-1">CO</th>
+                            </tr>
+                            <tr>
+                              <td class="p-1 m-1">>=55</td>
+                              <td class="p-1 m-1">>=151</td>
+                              <td class="p-1 m-1">>=208</td>
+                              <td class="p-1 m-1">>=798</td>
+                              <td class="p-1 m-1">>=1.222</td>
+                              <td class="p-1 m-1">>=17.688</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      <a class="justify-content-center align-items-center text-center">
+                      <h5 class="card-title text-center m-0 mb-0"><small>
+                      <button style="background-color: #F8F800" class="text-center text-white btn btn-sm btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
+                      
+                      <h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+            
+            var contentStringAnaranjado = `<div class="container-fluid">
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="card-deck flex-row flex-nowrap mb-3">
+                  <div class="card">
+                    <div class="card-body pb-1">
+                      <h5 class="card-title text-center m-0 mb-0">Nivel iv </h5>
+                      <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b style="background-color: #FF5900" class="text-white text-uppercase">&nbsp;Anaranjado&nbsp;</b></h5>
+                        <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
+                          <thead>
+                            <tr style="background-color: #FF5900" class="text-white" >
+                              <th scope="col" colspan="6">CONTAMINANTES</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-center">
+                            <tr>
+                              <th class="p-1 m-1">Pm10</th>
+                              <th class="p-1 m-1">Pm2.5</th>
+                              <th class="p-1 m-1">O3</th>
+                              <th class="p-1 m-1">SO2</th>
+                              <th class="p-1 m-1">NO2</th>
+                              <th class="p-1 m-1">CO</th>
+                            </tr>
+                            <tr>
+                              <td class="p-1 m-1">>=155</td>
+                              <td class="p-1 m-1">>=151</td>
+                              <td class="p-1 m-1">>=208</td>
+                              <td class="p-1 m-1">>=798</td>
+                              <td class="p-1 m-1">>=1.222</td>
+                              <td class="p-1 m-1">>=17.688</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      <a class="justify-content-center align-items-center text-center">
+                      <h5 class="card-title text-center m-0 mb-0"><small>
+                      <button style="background-color: #FF5900" class="text-center text-white btn btn-sm btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
+                      
+                      <h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+
+            var contentStringRojo = `<div class="container-fluid">
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="card-deck flex-row flex-nowrap mb-3">
+                  <div class="card">
+                    <div class="card-body pb-1">
+                      <h5 class="card-title text-center m-0 mb-0">Nivel iv </h5>
+                      <h5 class="card-title text-center m-0 mb-1">Emegencia:  <b style="background-color:#EB0000" class="text-white text-uppercase">&nbsp;Rojo&nbsp;</b></h5>
+                        <table class="table-sm text-center table-bordered table table-hover table-responsive p-0 m-0" style="font-size: 12px;">
+                          <thead>
+                            <tr style="background-color: #EB0000" class="text-white" >
+                              <th scope="col" colspan="6">CONTAMINANTES</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-center">
+                            <tr>
+                              <th class="p-1 m-1">Pm10</th>
+                              <th class="p-1 m-1">Pm2.5</th>
+                              <th class="p-1 m-1">O3</th>
+                              <th class="p-1 m-1">SO2</th>
+                              <th class="p-1 m-1">NO2</th>
+                              <th class="p-1 m-1">CO</th>
+                            </tr>
+                            <tr>
+                              <td class="p-1 m-1">>=255</td>
+                              <td class="p-1 m-1">>=151</td>
+                              <td class="p-1 m-1">>=208</td>
+                              <td class="p-1 m-1">>=798</td>
+                              <td class="p-1 m-1">>=1.222</td>
+                              <td class="p-1 m-1">>=17.688</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      <a class="justify-content-center align-items-center text-center">
+                      <h5 class="card-title text-center m-0 mb-0"><small>
+                      <button style="background-color: #EB0000" class="text-center text-white btn btn-sm btnDetail mt-3 mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Detalles</button>
+                      
+                      <h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+
+        var infowindowVerde = new google.maps.InfoWindow({
+          content: contentStringVerde
+        });
+        var infowindowAmarillo = new google.maps.InfoWindow({
+          content: contentStringAmarillo
+        });
+        var infowindowAnaranjado = new google.maps.InfoWindow({
+          content: contentStringAnaranjado
+        });
+        var infowindowRojo = new google.maps.InfoWindow({
+          content: contentStringRojo
+        });
+        var infowindowMorado = new google.maps.InfoWindow({
+          content: contentStringMorado
         });
 
         var marker1 = new google.maps.Marker({
@@ -889,11 +1050,57 @@
         });
 
 
-        marker10.addListener('click', function() {
-          infowindow.open(map, marker10);
+        marker1.addListener('click', function() {
+          infowindowAmarillo.open(map, marker1);
+          map.setCenter(marker1.getPosition());
           map.setZoom(17);
-          map.setCenter({lat: 10.9710908, lng: -74.7839236});
         });
+        marker2.addListener('click', function() {
+          infowindowVerde.open(map, marker2);
+          map.setCenter(marker2.getPosition());
+          map.setZoom(17);
+        });
+        marker3.addListener('click', function() {
+          infowindowAnaranjado.open(map, marker3);
+          map.setCenter(marker3.getPosition());
+          map.setZoom(17);
+        });
+        marker4.addListener('click', function() {
+          infowindowRojo.open(map, marker4);
+          map.setCenter(marker4.getPosition());
+          map.setZoom(17);
+        });
+        marker5.addListener('click', function() {
+          infowindowVerde.open(map, marker5);
+          map.setCenter(marker5.getPosition());
+          map.setZoom(17);
+        });
+        marker6.addListener('click', function() {
+          infowindowVerde.open(map, marker6);
+          map.setCenter(marker6.getPosition());
+          map.setZoom(17);
+        });
+        marker7.addListener('click', function() {
+          infowindowVerde.open(map, marker7);
+          map.setCenter(marker7.getPosition());
+          map.setZoom(17);
+        });
+        marker8.addListener('click', function() {
+          infowindowVerde.open(map, marker8);
+          map.setCenter(marker8.getPosition());
+          map.setZoom(17);
+        });
+        marker9.addListener('click', function() {
+          infowindowVerde.open(map, marker9);
+          map.setCenter(marker9.getPosition());
+          map.setZoom(17);
+        });
+        marker10.addListener('click', function() {
+          infowindowMorado.open(map, marker10);
+          map.setCenter(marker10.getPosition());
+          map.setZoom(17);
+        });
+       
 
         $("#menu-toggle").click(function (e) {
           e.preventDefault();
@@ -916,10 +1123,20 @@
           // alert(latitud + ' - ' + longitud);
           var cityMap = new google.maps.LatLng(latitud, longitud);
           map.panTo(cityMap);
+          map.setZoom(13);
+        })
+
+        $('.selectBarrio').on('change', function () {
+          var latitud = $(this).children("option:selected").data("lat");
+          var longitud = $(this).children("option:selected").data("long");
+          // alert(latitud + ' - ' + longitud);
+          var cityMap = new google.maps.LatLng(latitud, longitud);
+          map.panTo(cityMap);
           map.setZoom(15);
         })
           
-            var map2 = new google.maps.Map(document.getElementById('map2'), {
+
+         var map2 = new google.maps.Map(document.getElementById('map2'), {
           center: {lat: 10.956775, lng: -74.762537},
           zoom: 18,
         mapTypeId: 'roadmap',
@@ -928,10 +1145,9 @@
         zoomControl: false,
         });
 
-         var marker101 = new google.maps.Marker({
+         var marker010 = new google.maps.Marker({
           position: {lat: 10.956775, lng: -74.762537},
           map: map2,
-          icon: morado,
         });
       }
 

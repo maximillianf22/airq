@@ -680,6 +680,30 @@
                     <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="container">
                             <div class="row">
+                            <div class="input-daterange datepicker row align-items-center">
+    <div class="col">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                </div>
+                <input class="form-control" placeholder="Start date" type="text" value="06/18/2020">
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+                </div>
+                <input class="form-control" placeholder="End date" type="text" value="06/22/2020">
+            </div>
+        </div>
+    </div>
+</div>
+                            </div>
+                            <div class="row">
                                 <div class="col-10 offset-1">
                                     <div class="card mt-3">
                                         <div class="card-body">
@@ -738,6 +762,7 @@
   <script src="{{ asset('assets/vendor/chart.js/dist/Chart.min.js') }}"></script>
   <script src="{{ asset('assets/js/components/charts/chart-bars.js') }}"></script>
   <script src="{{ asset('assets/vendor/chart.js/dist/Chart.extension.js') }}"></script>
+  <script src="{{ asset('assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
   <!-- Argon JS -->
   <script src="{{ asset('assets/js/argon.js?v=1.2.0') }}"></script>
       <script>
@@ -746,7 +771,7 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
-          center: {lat: 11.0041072, lng: -74.8069813},
+          center: {lat:   10.993315, lng: -74.806905},
         });
 
         var amarillo = "{{asset('images/marcadores/marcadorAmarillo.png')}}";
@@ -858,7 +883,7 @@
         });
 
          var marker10 = new google.maps.Marker({
-          position: {lat: 10.9710908, lng: -74.7839236},
+          position: {lat: 10.956775, lng: -74.762537},
           map: map,
           icon: morado,
         });
@@ -895,16 +920,16 @@
         })
           
             var map2 = new google.maps.Map(document.getElementById('map2'), {
-          center: {lat: 10.9710908, lng: -74.7839236},
-          zoom: 19,
+          center: {lat: 10.956775, lng: -74.762537},
+          zoom: 18,
         mapTypeId: 'roadmap',
         disableDefaultUI: true,
         gestureHandling: 'none',
         zoomControl: false,
         });
-        
+
          var marker101 = new google.maps.Marker({
-          position: {lat: 10.9710908, lng: -74.7839236},
+          position: {lat: 10.956775, lng: -74.762537},
           map: map2,
           icon: morado,
         });
